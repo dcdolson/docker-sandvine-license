@@ -1,0 +1,6 @@
+#!/bin/sh
+set -a
+LD_LIBRARY_PATH='/usr/svlicenseserver'
+SHLIB_PATH='/usr/svlicenseserver'
+LIBPATH='/usr/svlicenseserver'
+/usr/svlicenseserver/lmx-serv -l /var/sandvine/license -c /usr/svlicenseserver/lmx-serv.cfg
