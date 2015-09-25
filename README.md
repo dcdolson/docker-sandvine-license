@@ -1,7 +1,7 @@
 This is a docker container to run Sandvine's license server.
 
 It mounts the licenses from /var/sandvine/license on the host,
-and exposes port 6200. Place your *.lic files in the /var/sandivne/license
+and exposes port 6200. Place your *.lic files in the /var/sandvine/license
 
 docker build --rm -t sandvine-license  .
 
