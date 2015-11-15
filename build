@@ -1,0 +1,5 @@
+#!/bin/bash
+docker stop sandvine-license 2>/dev/null
+docker rm sandvine-license 2>/dev/null
+docker build --force-rm=true --rm=true -t sandvine-license .
+

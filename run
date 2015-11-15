@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -d --restart=always -p 127.0.0.1:6200:6200 -h 507221e99c66 --name="sandvine-license" -v /cephfs/sandvine/license:/var/sandvine/license sandvine-license
